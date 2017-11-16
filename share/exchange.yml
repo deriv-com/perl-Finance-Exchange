@@ -582,8 +582,8 @@ LSE:
   display_name: London Stock Exchange
   market_times:
     dst:
-      daily_close: 15h30m
-      daily_open: 7h
+      daily_close: 17h00m
+      daily_open: -1h
       daily_settlement: 18h30m
     partial_trading:
       dst_close: 11h30m
@@ -591,8 +591,8 @@ LSE:
       standard_close: 12h30m
       standard_open: 8h
     standard:
-      daily_close: 16h30m
-      daily_open: 8h
+      daily_close: 18h00m
+      daily_open: 0h
       daily_settlement: 19h30m
   symbol: LSE
   trading_days: weekdays
