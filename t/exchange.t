@@ -110,20 +110,20 @@ subtest 'exchange currency' => sub {
 subtest 'market_times' => sub {
     my $expected = {
         dst => {
-            daily_close      => 5 * 3600,
+            daily_close      => 17 * 3600,
             daily_open       => -1 * 3600,
-            daily_settlement => 8 * 3600,
+            daily_settlement => 20 * 3600,
         },
         partial_trading => {
-            dst_close      => 3 * 3600 + 10 * 60,
-            dst_open       => -1 * 3600,
-            standard_close => 4 * 3600 + 10 * 60,
-            standard_open  => 0,
+            dst_close      =>  17 * 3600,  
+            dst_open       =>  -1 * 3600,
+            standard_close =>  18 * 3600, 
+            standard_open  =>  0,
         },
         standard => {
-            daily_close      => 6 * 3600,
+            daily_close      => 18 * 3600,
             daily_open       => 0,
-            daily_settlement => 9 * 3600,
+            daily_settlement => 21 * 3600,
         },
     };
     my $asx = Finance::Exchange->create_exchange('ASX');

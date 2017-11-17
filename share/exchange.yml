@@ -20,7 +20,7 @@ ASX:
     dst:
       daily_close: 17h
       daily_open: -1h
-      daily_settlement: 21h
+      daily_settlement: 20h
     partial_trading:
       dst_close: 17h
       dst_open: -1h
