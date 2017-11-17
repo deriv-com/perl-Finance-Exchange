@@ -115,10 +115,10 @@ subtest 'market_times' => sub {
             daily_settlement => 20 * 3600,
         },
         partial_trading => {
-            dst_close      =>  17 * 3600,  
-            dst_open       =>  -1 * 3600,
-            standard_close =>  18 * 3600, 
-            standard_open  =>  0,
+            dst_close      => 17 * 3600,  
+            dst_open       => -1 * 3600,
+            standard_close => 18 * 3600, 
+            standard_open  => 0,
         },
         standard => {
             daily_close      => 18 * 3600,
