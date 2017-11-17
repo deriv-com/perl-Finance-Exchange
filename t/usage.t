@@ -14,6 +14,6 @@ is $exchange->trading_timezone, 'Europe/London';
 cmp_deeply $exchange->trading_days_list, [ 0, 1, 1, 1, 1, 1, 0 ];
 is $exchange->delay_amount, 15, 'LSE minimum delay is 15 minutes';
 is $exchange->currency, 'GBP', 'LSE is traded in pound sterling';
-is $exchange->trading_date_can_differ, 0, 'only applies to AU/NZ';
+is $exchange->trading_date_can_differ, 1, 'MT5 is providing longer trading hours';
 
 done_testing;
