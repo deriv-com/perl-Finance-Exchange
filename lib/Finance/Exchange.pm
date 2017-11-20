@@ -41,7 +41,7 @@ This is a generic representation of a financial stock exchange.
     is $exchange->market_times, { ... };
     is $exchange->delay_amount, 15, 'LSE minimum delay is 15 minutes';
     is $exchange->currency, 'GBP', 'LSE is traded in pound sterling';
-    is $exchange->trading_date_can_differ, 1, 'MT5 feed can provide us longer trading hours';
+    is $exchange->trading_date_can_differ, 0, 'only applies to AU/NZ';
     ...
 
 =cut
