@@ -1210,7 +1210,7 @@ TRSE:
   display_name: Toronto Stock Exchange
   market_times:
     dst:
-      daily_close: 20h
+      daily_close: 19h15m
       daily_open: 13h30m
       daily_settlement: 22h59m59s
     partial_trading:
@@ -1219,7 +1219,7 @@ TRSE:
       standard_close: 18h
       standard_open: 14h30m
     standard:
-      daily_close: 21h
+      daily_close: 20h15m
       daily_open: 14h30m
       daily_settlement: 23h59m59s
   symbol: TRSE
