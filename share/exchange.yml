@@ -39,18 +39,18 @@ ASX_S:
   display_name: Australian Stock Exchange
   market_times:
     dst:
-      daily_close: 5h
-      daily_open: -1h
-      daily_settlement: 8h
+      daily_close: 20h
+      daily_open: 0h
+      daily_settlement: 23h59m59s
     partial_trading:
-      dst_close: 3h10m
-      dst_open: -1h
-      standard_close: 4h10m
-      standard_open: 0s
+      dst_close: 11h
+      dst_open: 0h
+      standard_close: 12h
+      standard_open: 1h
     standard:
-      daily_close: 6h
-      daily_open: 0s
-      daily_settlement: 9h
+      daily_close: 21h
+      daily_open: 1h
+      daily_settlement: 23h59m59s
   symbol: ASX_S
   trading_days: weekdays
   trading_timezone: Australia/Sydney
@@ -1058,17 +1058,17 @@ SYNFSE:
   market_times:
     dst:
       daily_close: 20h
-      daily_open: 7h15m
-      daily_settlement: 20h00m
+      daily_open: 0h
+      daily_settlement: 23h59m59s
     partial_trading:
-      dst_close: 12h
-      dst_open: 7h15m
-      standard_close: 13h
-      standard_open: 8h15m
+      dst_close: 11h
+      dst_open: 0h00m
+      standard_close: 12h
+      standard_open: 1h00m
     standard:
       daily_close: 21h00m
-      daily_open: 8h15m
-      daily_settlement: 21h00m
+      daily_open: 1h00m
+      daily_settlement: 23h59m59s
   symbol: SYNFSE
   trading_days: weekdays
   trading_timezone: Europe/Berlin
@@ -1079,12 +1079,12 @@ SYNLSE:
   market_times:
     dst:
       daily_close: 20h00m
-      daily_open: 7h15m
+      daily_open: 0h
       daily_settlement: 20h00m
     standard:
       daily_close: 21h00m
-      daily_open: 8h15m
-      daily_settlement: 21h00m
+      daily_open: 1h
+      daily_settlement: 23h59m59sm
   symbol: SYNLSE
   trading_days: weekdays
   trading_timezone: Europe/London
@@ -1095,23 +1095,17 @@ SYNNYSE_DJI:
   market_times:
     dst:
       daily_close: 20h
-      daily_open: 7h15m
-      daily_settlement: 20h
-      trading_breaks:
-      - - 13h20m
-        - 13h40m
+      daily_open: 10h
+      daily_settlement: 23h59m59s
     partial_trading:
-      dst_close: 17h
-      dst_open: 13h40m
-      standard_close: 18h
-      standard_open: 14h40m
+      dst_close: 12h
+      dst_open: 0h
+      standard_close: 12h
+      standard_open: 1h00m
     standard:
       daily_close: 21h
-      daily_open: 8h15m
-      daily_settlement: 21h
-      trading_breaks:
-      - - 14h20m
-        - 14h40m
+      daily_open: 1h
+      daily_settlement: 23h59m59s
   symbol: SYNNYSE_DJI
   trading_days: weekdays
   trading_timezone: America/New_York
