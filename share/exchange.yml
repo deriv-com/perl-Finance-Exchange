@@ -1231,7 +1231,7 @@ SYNFSE:
       daily_open: 7h15m
       daily_settlement: 20h00m
     partial_trading:
-      dst_close: 20h
+      dst_close: 12h
       dst_open: 7h15m
       standard_close: 13h
       standard_open: 8h15m
@@ -1253,7 +1253,7 @@ SYNLSE:
       daily_settlement: 20h00m
     standard:
       daily_close: 21h00m
-      daily_open: 8h15h
+      daily_open: 8h15m
       daily_settlement: 21h00m
   symbol: SYNLSE
   trading_days: weekdays
@@ -1265,8 +1265,8 @@ SYNNYSE_DJI:
   market_times:
     dst:
       daily_close: 20h
-      daily_open: 10h
-      daily_settlement: 23h59m59s
+      daily_open: 7h15m
+      daily_settlement: 20h
       trading_breaks:
       - - 13h20m
         - 13h40m
