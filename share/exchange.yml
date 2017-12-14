@@ -63,7 +63,7 @@ ASX_S:
       dst_close: 3h10m
       dst_open: -1h
       standard_close: 4h10m
-      standard_open: 0h
+      standard_open: 0s
     standard:
       daily_close: 6h
       daily_open: 0s
