@@ -806,7 +806,7 @@ NSE_OTC:
   market_times:
     dst:
       daily_close: 9h00m
-      daily_open: 0h
+      daily_open: 0s
       daily_settlement: 12h
     partial_trading: {}
     standard:
