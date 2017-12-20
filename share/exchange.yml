@@ -853,7 +853,7 @@ NYSE_OTC:
       daily_settlement: 22h59m59s
   symbol: NYSE_OTC
   trading_days: weekdays
-  trading_timezone: America/New York
+  trading_timezone: America/New_York
 NYSE_SPC:
   currency: USD
   delay_amount: '1440'
@@ -891,7 +891,7 @@ NYSE_SPC_OTC:
       daily_settlement: 22h59m59s
   symbol: NYSE_SPC_OTC
   trading_days: weekdays
-  trading_timezone: America/New York
+  trading_timezone: America/New_York
 NZSE:
   currency: NZD
   delay_amount: '15'
