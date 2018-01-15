@@ -158,7 +158,11 @@ BSE:
   delay_amount: '10'
   display_name: Bombay Stock Exchange
   market_times:
-    partial_trading: {}
+    partial_trading:
+      dst_close: 13h
+      dst_open: 12h
+      standard_close: 14h
+      standard_open: 13h
     standard:
       daily_close: 10h00m
       daily_open: 03h45m
@@ -689,7 +693,11 @@ NSE:
   delay_amount: '15'
   display_name: India National Stock Exchange
   market_times:
-    partial_trading: {}
+    partial_trading:
+      dst_close: 13h
+      dst_open: 12h
+      standard_close: 14h
+      standard_open: 13h
     standard:
       daily_close: 10h00m
       daily_open: 03h45m
