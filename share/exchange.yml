@@ -39,12 +39,15 @@ ASX_OTC:
   display_name: OTC Australia Stock Exchange
   market_times:
     dst:
-      daily_close: 19h
+      daily_close: 20h
       daily_open: -1h
       daily_settlement: 22h
     partial_trading: {}
+    trading_breaks:
+      - - 5h30m
+        - 06h10m
     standard:
-      daily_close: 20h
+      daily_close: 21h
       daily_open: 0s
       daily_settlement: 23h
   symbol: ASX_OTC
@@ -142,12 +145,12 @@ BM_OTC:
   display_name: OTC Borsa Madrid
   market_times:
     dst:
-      daily_close: 17h
+      daily_close: 18h
       daily_open: 6h
       daily_settlement: 20h
     partial_trading: {}
     standard:
-      daily_close: 18h
+      daily_close: 19h
       daily_open: 7h
       daily_settlement: 21h
   symbol: BM_OTC
@@ -392,13 +395,13 @@ EURONEXT_OTC:
   display_name: OTC EURONEXT
   market_times:
     dst:
-      daily_close: 19h
-      daily_open: 5h
+      daily_close: 20h
+      daily_open: 6h
       daily_settlement: 22h
     partial_trading: {}
     standard:
-      daily_close: 20h
-      daily_open: 6h
+      daily_close: 21h
+      daily_open: 7h
       daily_settlement: 23h
   symbol: EURONEXT_OTC
   trading_days: weekdays
@@ -473,13 +476,13 @@ FSE_OTC:
   display_name: OTC Frankfurt Stock Exchange
   market_times:
     dst:
-      daily_close: 19h
-      daily_open: 5h
+      daily_close: 19h30m
+      daily_open: 6h
       daily_settlement: 22h
     partial_trading: {}
     standard:
-      daily_close: 20h
-      daily_open: 6h
+      daily_close: 20h30m
+      daily_open: 7h
       daily_settlement: 23h
   symbol: FSE_OTC
   trading_days: weekdays
@@ -843,12 +846,12 @@ NYSE_OTC:
   display_name: OTC New York Stock Exchange
   market_times:
     dst:
-      daily_close: 19h
+      daily_close: 20h
       daily_open: -1h
       daily_settlement: 22h
     partial_trading: {}
     standard:
-      daily_close: 20h
+      daily_close: 21h
       daily_open: 0s
       daily_settlement: 23h
   symbol: NYSE_OTC
@@ -881,12 +884,12 @@ NYSE_SPC_OTC:
   display_name: OTC New York Stock Exchange
   market_times:
     dst:
-      daily_close: 19h
+      daily_close: 20h
       daily_open: -1h
       daily_settlement: 22h
     partial_trading: {}
     standard:
-      daily_close: 20h
+      daily_close: 21h
       daily_open: 0s
       daily_settlement: 23h
   symbol: NYSE_SPC_OTC
@@ -1177,13 +1180,13 @@ STOXX_OTC:
   display_name: OTC STOXX Exchange
   market_times:
     dst:
-      daily_close: 19h
-      daily_open: 5h
+      daily_close: 20h
+      daily_open: 6h
       daily_settlement: 22h
     partial_trading: {}
     standard:
-      daily_close: 20h
-      daily_open: 6h
+      daily_close: 21h
+      daily_open: 7h
       daily_settlement: 23h
   symbol: STOXX_OTC
   trading_days: weekdays
@@ -1434,12 +1437,12 @@ TSE_OTC:
   display_name: OTC Tokyo Stock Exchange
   market_times:
     dst:
-      daily_close: 19h
+      daily_close: 20h
       daily_open: -1h
       daily_settlement: 22h
     partial_trading: {}
     standard:
-      daily_close: 20h
+      daily_close: 21h
       daily_open: 0s
       daily_settlement: 23h
   symbol: TSE_OTC
