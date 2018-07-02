@@ -789,6 +789,23 @@ NASDAQ:
   symbol: NASDAQ
   trading_days: weekdays
   trading_timezone: America/New_York
+NASDAQ_OTC:
+  currency: USD
+  delay_amount: '0'
+  display_name: NASDAQ_OTC
+  market_times:
+    dst:
+      daily_close: 20h
+      daily_open: 6h
+      daily_settlement: 22h
+    partial_trading: {}
+    standard:
+      daily_close: 21h
+      daily_open: 7h
+      daily_settlement: 23h
+  symbol: NASDAQ_OTC
+  trading_days: weekdays
+  trading_timezone: America/New_York
 NASDAQ_INDEX:
   currency: USD
   delay_amount: '60'
