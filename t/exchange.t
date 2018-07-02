@@ -138,7 +138,7 @@ subtest 'market_times' => sub {
                 daily_close      => 20 * 3600,
                 daily_open       => 0 * 3600,
                 daily_settlement => 22 * 3600,
-                trading_breaks   => [4 * 3600 + 30 * 60, 5 * 3600 + 30 * 60],
+                trading_breaks   => [6 * 3600 + 30 * 60, 7 * 3600 + 30 * 60],
             },
         },
 
