@@ -398,7 +398,7 @@ EURONEXT_OTC:
   display_name: OTC EURONEXT
   market_times:
     dst:
-      daily_close: 19h20m
+      daily_close: 19h30m
       daily_open: 6h
       daily_settlement: 21h30
     partial_trading: {}
