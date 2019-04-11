@@ -45,7 +45,11 @@ ASX_OTC:
       trading_breaks:
       - - 5h30m
         - 6h30m
-    partial_trading: {}
+    partial_trading:
+      dst_close: 2h30m
+      dst_open: 0h
+      standard_close: 3h30m
+      standard_open: 0h  
     standard:
       daily_close: 20h
       daily_open: 0s
