@@ -41,7 +41,7 @@ ASX_OTC:
     dst:
       daily_close: 19h
       daily_open: 0s
-      daily_settlement: 21h
+      daily_settlement: 24h
       trading_breaks:
       - - 5h30m
         - 6h30m
@@ -49,7 +49,7 @@ ASX_OTC:
     standard:
       daily_close: 20h
       daily_open: 0s
-      daily_settlement: 22h
+      daily_settlement: 24h
       trading_breaks:
       - - 6h30m
         - 7h30m
@@ -150,12 +150,12 @@ BM_OTC:
     dst:
       daily_close: 17h
       daily_open: 6h
-      daily_settlement: 19h
+      daily_settlement: 24h
     partial_trading: {}
     standard:
       daily_close: 18h
       daily_open: 7h
-      daily_settlement: 20h
+      daily_settlement: 24h
   symbol: BM_OTC
   trading_days: weekdays
   trading_timezone: Europe/Madrid
@@ -400,12 +400,12 @@ EURONEXT_OTC:
     dst:
       daily_close: 19h30m
       daily_open: 6h
-      daily_settlement: 21h30m
+      daily_settlement: 24h
     partial_trading: {}
     standard:
       daily_close: 20h30m
       daily_open: 7h
-      daily_settlement: 22h30m
+      daily_settlement: 24h
   symbol: EURONEXT_OTC
   trading_days: weekdays
   trading_timezone: Europe/Paris
@@ -481,12 +481,12 @@ FSE_OTC:
     dst:
       daily_close: 19h30m
       daily_open: 6h
-      daily_settlement: 21h30m
+      daily_settlement: 24h
     partial_trading: {}
     standard:
       daily_close: 20h30m
       daily_open: 7h
-      daily_settlement: 22h30m
+      daily_settlement: 24h
   symbol: FSE_OTC
   trading_days: weekdays
   trading_timezone: Europe/Berlin
@@ -536,7 +536,7 @@ HKSE_OTC:
     standard:
       daily_close: 8h
       daily_open: 1h30m
-      daily_settlement: 10h
+      daily_settlement: 24h
       trading_breaks:
       - - 4h
         - 5h
@@ -648,12 +648,12 @@ JSE_OTC:
     dst:
       daily_close: 14h30m
       daily_open: 5h30m
-      daily_settlement: 17h30m
+      daily_settlement: 24h
     partial_trading: {}
     standard:
       daily_close: 15h30m
       daily_open: 6h30m
-      daily_settlement: 18h30m
+      daily_settlement: 24h
   symbol: JSE_OTC
   trading_days: weekdays
   trading_timezone: Africa/Johannesburg
@@ -714,12 +714,12 @@ LSE_OTC:
     dst:
       daily_close: 20h
       daily_open: 6h
-      daily_settlement: 22h
+      daily_settlement: 24h
     partial_trading: {}
     standard:
       daily_close: 21h
       daily_open: 7h
-      daily_settlement: 23h
+      daily_settlement: 24h
   symbol: LSE_OTC
   trading_days: weekdays
   trading_timezone: Europe/London
@@ -797,12 +797,12 @@ NASDAQ_OTC:
     dst:
       daily_close: 20h
       daily_open: 6h
-      daily_settlement: 22h
+      daily_settlement: 24h
     partial_trading: {}
     standard:
       daily_close: 21h
       daily_open: 7h
-      daily_settlement: 23h
+      daily_settlement: 24h
   symbol: NASDAQ_OTC
   trading_days: weekdays
   trading_timezone: America/New_York
@@ -848,12 +848,12 @@ NSE_OTC:
     dst:
       daily_close: 9h
       daily_open: 0s
-      daily_settlement: 12h
+      daily_settlement: 24h
     partial_trading: {}
     standard:
       daily_close: 10h
       daily_open: 1h
-      daily_settlement: 13h
+      daily_settlement: 24h
   symbol: NSE_OTC
   trading_days: weekdays
   trading_timezone: Asia/Calcutta
@@ -886,12 +886,12 @@ NYSE_OTC:
     dst:
       daily_close: 20h
       daily_open: 6h
-      daily_settlement: 22h
+      daily_settlement: 24h
     partial_trading: {}
     standard:
       daily_close: 21h
       daily_open: 7h
-      daily_settlement: 23h
+      daily_settlement: 24h
   symbol: NYSE_OTC
   trading_days: weekdays
   trading_timezone: America/New_York
@@ -924,12 +924,12 @@ NYSE_SPC_OTC:
     dst:
       daily_close: 20h
       daily_open: 6h
-      daily_settlement: 22h
+      daily_settlement: 24h
     partial_trading: {}
     standard:
       daily_close: 21h
       daily_open: 7h
-      daily_settlement: 23h
+      daily_settlement: 24h
   symbol: NYSE_SPC_OTC
   trading_days: weekdays
   trading_timezone: America/New_York
@@ -1220,12 +1220,12 @@ STOXX_OTC:
     dst:
       daily_close: 19h
       daily_open: 6h
-      daily_settlement: 21h
+      daily_settlement: 24h
     partial_trading: {}
     standard:
       daily_close: 20h
       daily_open: 7h
-      daily_settlement: 22h
+      daily_settlement: 24h
   symbol: STOXX_OTC
   trading_days: weekdays
   trading_timezone: Europe/Berlin
@@ -1254,12 +1254,12 @@ SWX_OTC:
     dst:
       daily_close: 16h
       daily_open: 7h
-      daily_settlement: 18h
+      daily_settlement: 24h
     partial_trading: {}
     standard:
       daily_close: 17h
       daily_open: 8h
-      daily_settlement: 19h
+      daily_settlement: 24h
   symbol: SWX_OTC
   trading_days: weekdays
   trading_timezone: Europe/Zurich
@@ -1461,12 +1461,12 @@ TRSE_OTC:
     dst:
       daily_close: 19h15m
       daily_open: 12h30m
-      daily_settlement: 22h30m
+      daily_settlement: 24h
     partial_trading: {}
     standard:
       daily_close: 20h15m
       daily_open: 13h30m
-      daily_settlement: 23h30m
+      daily_settlement: 24h
   symbol: TRSE_OTC
   trading_days: weekdays
   trading_timezone: America/Toronto
@@ -1495,7 +1495,7 @@ TSE_OTC:
     standard:
       daily_close: 20h
       daily_open: 0s
-      daily_settlement: 22h
+      daily_settlement: 24h
   symbol: TSE_OTC
   trading_days: weekdays
   trading_timezone: Asia/Tokyo
