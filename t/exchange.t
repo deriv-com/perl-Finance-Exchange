@@ -131,13 +131,13 @@ subtest 'market_times' => sub {
             dst => {
                 daily_close      => 19 * 3600,
                 daily_open       => 0 * 3600,
-                daily_settlement => 21 * 3600,
+                daily_settlement => 24 * 3600,
                 trading_breaks   => [5 * 3600 + 30 * 60, 6 * 3600 + 30 * 60],
             },
             standard => {
                 daily_close      => 20 * 3600,
                 daily_open       => 0 * 3600,
-                daily_settlement => 22 * 3600,
+                daily_settlement => 24 * 3600,
                 trading_breaks   => [6 * 3600 + 30 * 60, 7 * 3600 + 30 * 60],
             },
         },
