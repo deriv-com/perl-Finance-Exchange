@@ -444,7 +444,7 @@ METAL:
         - 23h
   symbol: METAL
   trading_days: weekdays
-  trading_timezone: UTC
+  trading_timezone: America/New_York
 FS:
   currency: GBP
   delay_amount: '1440'
