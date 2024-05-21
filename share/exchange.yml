@@ -252,11 +252,7 @@ CME_OTC:
       daily_close: 20h
       daily_open: 13h30m
       daily_settlement: 22h
-    partial_trading:
-      dst_close: 
-      dst_open: 
-      standard_close: 
-      standard_open:
+    partial_trading: {}
     standard:
       daily_close: 21h
       daily_open: 14h30m
@@ -1213,9 +1209,7 @@ SGX_OTC:
   delay_amount: '0'
   display_name: OTC Singapore Derivatives Exchange
   market_times:
-    partial_trading:
-      standard_close:
-      standard_open:
+    partial_trading: {}
     standard:
       daily_close: 9h
       daily_open: 1h
