@@ -39,7 +39,7 @@ subtest 'trading_days' => sub {
             'OMX',         'FOREX',  'SYNSTOXX',    'SZSE',     'SYNSWX',       'RTS',    'JSC',         'METAL',
             'OSE',         'FS',     'NZSE',        'ODLS',     'SP_GLOBAL',    'JSE',    'NASDAQ',      'BM',
             'HKSE',        'MICEX',  'SYNNYSE_DJI', 'SP_GSCI',  'EUREX_SWISS',  'IDM',    'SSE',         'OIL_OTC',
-            'BRENT_OTC'
+            'BRENT_OTC',   'CME_OTC', 'SGX_OTC'
         ],
     };
 
