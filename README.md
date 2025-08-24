@@ -4,7 +4,7 @@ Finance::Exchange - represents a financial stock exchange object.
 
 # VERSION
 
-version 0.01
+version 0.03
 
 # SYNOPSIS
 

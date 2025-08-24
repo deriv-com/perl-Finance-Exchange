@@ -15,7 +15,7 @@ Finance::Exchange - represents a financial stock exchange object.
 
 =head1 VERSION
 
-version 0.01
+version 0.03
 
 =head1 SYNOPSIS
 
