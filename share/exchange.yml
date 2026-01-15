@@ -997,7 +997,11 @@ NYSE_SPC_OTC:
       daily_close: 20h
       daily_open: 6h
       daily_settlement: 22h
-    partial_trading: {}
+    partial_trading: 
+      dst_close: 17h
+      dst_open: 6h
+      standard_close: 18h
+      standard_open: 7h
     standard:
       daily_close: 21h
       daily_open: 7h
